@@ -1,3 +1,33 @@
 // Place all the styles related to the Navbar controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#navbar {
+  background-color: gray;
+
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+}
+
+section {
+  overflow: auto;
+}
+
+.row {
+  section#row1 {
+    min-height: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    max-height: 100%;
+    position: relative;
+
+    //background: url(landscapeSmall.jpg) no-repeat;
+    background-size: 100% auto;
+  }
+
+}
