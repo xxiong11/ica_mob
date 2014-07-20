@@ -7,6 +7,8 @@
   src: local('Montserrat-Regular'), url(http://themes.googleusercontent.com/static/fonts/montserrat/v4/zhcz-_WihjSQC0oHJ9TCYBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
 }
 
+/* html elements */
+
 body {
   font-family: Montserrat, Calibri, sans-serif !important;
   font-size: 14pt;
@@ -45,37 +47,24 @@ h3 {
     z-index: -1;
   }
 
-  .between-photo {
-    min-height: 200px;
-  }
-}
-
-.row2 {
-  //min-height: 600px;
-  //height: 400px;
-  //margin: 0 auto;
-  //width: 100%;
-  //max-width: 1920px;
-  //max-height: 100%;
-  //position: relative;
-
   .mid-photo {
-    //border: 1px solid;
-    min-height: 400px;
-    //min-height: 25em;
-    margin: 0 auto;
     width: 100%;
-    max-width: 1920px;
+    height: auto;
+    min-height: 400px;
+    margin: 0 auto;
     max-height: 100%;
     position: relative;
     z-index: -1;
+  }
+
+  .between-photo {
+    min-height: 200px;
   }
 
   #home-second {
     background: url('group pic.jpg') no-repeat fixed;
     background-size: 100% auto;
   }
-
 }
 
 /* Sections with blank space */
@@ -112,14 +101,18 @@ h3 {
   margin: 0 35px 0 35px;
 }
 
+.circular:hover {
+  opacity: .7;
+}
+
 .img-max {
   width: 100%;
   height: auto;
 }
 
 .img-overlay {
-  width: 350px;
-  height: auto;
+  //width: 350px;
+  //width: 10%;
   height: auto;
   display: block;
   margin: auto;
@@ -157,7 +150,7 @@ h3 {
 .button {
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -187,6 +180,10 @@ h3 {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
+}
+
+.button:hover {
+  opacity: .9;
 }
 
 .button-default {
