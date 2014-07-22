@@ -1,0 +1,62 @@
+@import 'utilities/global';
+
+@media only screen and (min-width: 768px) and (max-width: 1223px) {
+
+body {
+  font-family: Montserrat, Calibri, sans-serif !important;
+  font-size: 14pt;
+  width: 100% !important;
+  min-width: 940px !important;
+}
+
+h2 {
+  font-weight: bold !important;
+  font-size: 24pt !important;
+  text-align: center !important;
+  color: $headerOneColor !important;
+}
+
+h3 {
+  font-size: 14pt !important;
+  text-align: center !important;
+  color: $headerThreeColor !important;
+}
+
+.row {
+  text-align: center;
+
+  .main-photo {
+    //margin: 0 auto;
+    padding-top: 3em;
+    position: relative;
+    min-height: 300px;
+    z-index: -1;
+  }
+
+  .mid-photo {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    margin: 0 auto;
+    max-height: 100%;
+    position: relative;
+    z-index: -1;
+  }
+
+  .no-photo {
+    min-height: 200px;
+  }
+
+  #home-second {
+    background: url('group pic.jpg') no-repeat fixed;
+  }
+
+  /* scrolling photos */
+  #home-main,
+  #home-second {
+    background-position: center bottom;
+    background-size: cover;
+  }
+}
+
+}
