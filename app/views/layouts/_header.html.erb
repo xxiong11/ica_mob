@@ -5,9 +5,10 @@
       <li>
 	<%#= link_to "ABOUT", about_path, class: "nav-link-1"  %>
 	<ul>
-	  <li><%#= link_to "Vision/Mission", "#", class: "nav-link-2" %></li>
-	  <li><%#= link_to "Discipleship", "#", class: "nav-link-2" %></li>
+	  <li><%#= link_to "Vision/Mission", about_path, class: "nav-link-2" %></li>
+	  <li><%#= link_to "Discipleship", about_discipleship_path, class: "nav-link-2" %></li>
 	  <li><%#= link_to "History", "#", class: "nav-link-2" %></li>
+	  <li><%#= link_to "Church Leadership", about_church_leadership_path, class: "nav-link-2" %></li>
 	  <li><%#= link_to "Church", "#", class: "nav-link-2" %></li>
 	</ul>
       </li>
@@ -45,9 +46,10 @@
 	<li class="has-dropdown">
 	  <%= link_to "ABOUT", about_path %>
 	  <ul class="dropdown">
-	    <li><%= link_to "Vision/Mission", "#" %></li>
-	    <li><%= link_to "Discipleship", "#" %></li>
+	    <li><%= link_to "Vision/Mission", about_path %></li>
+	    <li><%= link_to "Discipleship", about_discipleship_path %></li>
 	    <li><%= link_to "History", "#" %></li>
+	    <li><%= link_to "Church Leadership", about_church_leadership_path %></li>
 	    <li><%= link_to "Church", "#" %></li>
 	  </ul>
 	</li>
@@ -55,7 +57,7 @@
           <%= link_to "MINISTRIES", about_path %>
           <ul class="dropdown">
             <li><%= link_to "USC", "#" %></li>
-            <li><%= link_to "UCLA", "#" %></li>
+            <li><%= link_to "UCLA", ucla_path %></li>
             <li><%= link_to "UCI", "#" %></li>
             <li><%= link_to "UCB", "#" %></li>
           </ul>
@@ -68,7 +70,7 @@
             <li><%= link_to "Special Events", "#" %></li>
           </ul>
         </li>
-	<li><%= link_to "CONTACT US", "#" %></li>
+	<li><%= link_to "CONTACT US", contact_path %></li>
       </ul>
     </section>
   <nav>
