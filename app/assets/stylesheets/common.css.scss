@@ -53,33 +53,33 @@
 /* homepage */
 
 #home-main {
-  background: url('landscapeSmall2.jpg') no-repeat;
+  background: asset-url('landscapeSmall2.jpg') no-repeat;
 }
 
 #home-second {
-  background: url('group_pic.jpg') no-repeat fixed;
+  background: asset-url('group_pic.jpg') no-repeat fixed;
 }
 
 #usc-statue {
-  background: url(usc_statue.jpg) no-repeat;
+  background: asset-url('usc_statue.jpg') no-repeat;
   background-position: center center;
   background-size: auto 100%;
 }
 
 #ucb-statue {
-  background: url(ucb_statue.jpg) no-repeat;
+  background: asset-url('ucb_statue.jpg') no-repeat;
   background-position: center center;
   background-size: auto 100%;
 }
 
 #uci-statue {
-  background: url(uci_statue.jpg) no-repeat;
+  background: asset-url('uci_statue.jpg') no-repeat;
   background-position: center center;
   background-size: auto 100%;
 }
 
 #ucla-statue {
-  background: url(ucla_statue.jpg) no-repeat;
+  background: asset-url('ucla_statue.jpg') no-repeat;
   background-position: center center;
   background-size: auto 100%;
 }
