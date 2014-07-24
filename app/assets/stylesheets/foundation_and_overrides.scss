@@ -1336,8 +1336,8 @@ $topbar-transition-speed: 300ms;
 
 @media #{$small-up} {
   .responsive-button {
-    -webkit-transition: background 1s; /* Safari */
     transition: background 1s;
+    -webkit-transition: background 1s; /* Safari */
   }
 }
 @media #{$small-only} {
@@ -1358,6 +1358,17 @@ $topbar-transition-speed: 300ms;
 
   .fixed-photo {
     height: 200px;
+  }
+
+  .img-overlay {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 100px; right: 0; bottom: 0; left: 0;
+    z-index: 0;
   }
 }
 
@@ -1381,6 +1392,17 @@ $topbar-transition-speed: 300ms;
   .fixed-photo {
     height: 300px;
   }
+
+  .img-overlay {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 120px; right: 0; bottom: 0; left: 0;
+    z-index: 0;
+  }
 }
 
 @media #{$large-up} {
@@ -1401,6 +1423,17 @@ $topbar-transition-speed: 300ms;
 
   .fixed-photo {
     height: 400px;
+  }
+
+  .img-overlay {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 140px; right: 0; bottom: 0; left: 0;
+    z-index: 0;
   }
 }
 // @media #{$large-only} { }
